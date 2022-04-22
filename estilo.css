@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#menu{
+    max-width: auto;
+    min-height: 50px;
+    background:rgb(176, 198, 204);
+
+    margin: auto;
+}
+.eslider ul{
+    padding: 0;
+    width: 400%;
+    display: flex;
+    animation: slide 20s infinite alternate; 
+    animation-timing-function: linear;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu a{
+    color: #0f0d09;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: rgb(169, 203, 223);
+}
+
+#menu a:hover{
+   background-color: rgb(126, 158, 158);
+}
+
+body{
+    background-color: rgb(215, 223, 223);
+}
+
+.eslider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;}
+
+    
+.eslider li{
+    width: 90%;
+    list-style: none;
+}
+
+.eslider img{
+    width: 100%;
+}
+@keyframes slide{ 
+    
+    0%{margin-left: 0;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+/*e*/
+#nosotros{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+#servicios{
+    margin: 10px;
+    padding: 10px;
+    
+}
+#galeria{
+    margin: 10px;
+    padding: 10px;
+    
+}
+/*Este es el estilo de imágenes y textos de "nosostros.html"*/
+#teximagen{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+#contacto{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
